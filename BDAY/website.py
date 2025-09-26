@@ -26,7 +26,7 @@ st.markdown(
 
 # ---------- Background Music ----------
 # Local audio file path
-audio_file = r"song.mp3"
+audio_file = "song.mp3"
 
 # Open and play the audio
 with open(audio_file, "rb") as f:
@@ -40,7 +40,7 @@ st.title("🎉 Happy Birthday, Bibiiiii! 💕")
 st.balloons()
 
 st.image(
-    r"IMG-20250202-WA0028(1).jpg",
+    "IMG-20250202-WA0028(1).jpg",
     caption="Wishing you the happiest day ever!",
     use_container_width=True
 )
@@ -87,5 +87,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
