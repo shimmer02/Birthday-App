@@ -26,7 +26,7 @@ st.markdown(
 
 # ---------- Background Music ----------
 # Local audio file path
-audio_file = r"Happy Birthday Meme Song.mp3"
+audio_file = r"song.mp3"
 
 # Open and play the audio
 with open(audio_file, "rb") as f:
@@ -87,4 +87,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
